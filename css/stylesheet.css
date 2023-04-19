@@ -1,0 +1,17 @@
+.background {
+    width: 800px;
+    height: 800px;
+    object-fit: fill;
+   
+}
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.picture {
+    width: 1050px;
+    height: 500;
+}

@@ -4,14 +4,50 @@
     object-fit: fill;
    
 }
-body {
-    background-color: cornflowerblue;
+body { 
+  background-image: url(fairy-tale-bg-jpeg);
 }
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.desserts {
+    position: absolute;
+    float: inline-end;
+    padding: 5px;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.picture {
-    width: 1050px;
-    height: 500;
-}
+
+
+  }
+  .slogan {
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    padding: 5px;
+    margin-left: 500px;
+  }
+  .scene 
+  {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(#a6d8ff,#fff,#fff,#9370db);
+  }
+  .c-item {
+    height: 480px;
+    margin-top: 10px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+
+  
+  

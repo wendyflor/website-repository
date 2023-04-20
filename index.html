@@ -1,24 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=""/>
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <title>Pet City</title>
-    
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Fairy Cafe</title>
+  </head>
+  <body>
+    <section class="scene">
+      <div class="backdrop"></div>
+    <!--
+    <nav class="navbar"> 
+    <ul class="nav-list">
+      
+        <li><a href="#about-us">About us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+    </ul> -->
+    <!--<a href="#" class="logo">Fairy<span>.</span></a>-->
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="./images/fairy-tale-bg.webp" class="d-block w-100 c-img" alt="Slide 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">Discover the Magical World</p>
+            <h1 class="display-1 fw-bolder text-capitalize">The Fairy Cafe</h1>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Order Online</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./images/setting.jpeg" class="d-block w-100 c-img" alt="Slide 2">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">Walk ins and reservations welcome</p>
+            <p class="display-1 fw-bolder text-capitalize">Reservations available</p>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+              data-bs-target="#booking-modal">Order Online</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./images/pastry.jpeg" class="d-block w-100 c-img" alt="Slide 3">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">Come try our sweet macarons</p>
+            <p class="display-1 fw-bolder text-capitalize">Variety of pastries to choose from</p>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+              data-bs-target="#booking-modal">Order Online</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--<div class="desserts">
+    <img src="./images/cafe-latte.jpeg" alt="Cafe Latte"/>
+    <img src="./images/macarons.jpeg" alt="maracons"/>
+    </div>
+  
+  </section>
 
-
-</head>
-<body>
-    <h1>Welcome to Pet City</h1>
-    <div>
-         <img class="picture" src="./images/pet-illustration.avif" alt="pet-illustration"/>
-
-    </div>  
-
-    
-</body>
-
-
-
-
+  </body>
 </html>

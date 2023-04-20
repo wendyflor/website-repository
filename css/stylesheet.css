@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
 .background {
     width: 800px;
     height: 800px;
@@ -29,8 +34,8 @@ h1 {
   .scene 
   {
     position: relative;
-    height: 100vh;
-    background: linear-gradient(#a6d8ff,#fff,#fff,#9370db);
+    height: 150vh;
+    background: linear-gradient(#a6d8ff,#9370db);
   }
   .c-item {
     height: 480px;
@@ -91,6 +96,70 @@ h1 {
   .cta button:hover {
     background-color: rgba(0,136,169,0.8);
   }
+  .cta button {
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px;
+
+
+  }
+  .registration {
+    font-family: "Montserrat", sans-serif;
+  }
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
 
   
 

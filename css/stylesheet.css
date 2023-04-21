@@ -279,15 +279,17 @@ li a:hover .nav-list2 {
   min-width: 200px;
   margin-bottom: 50px;
   margin-left: 20px;
-
+  flex-direction: row;
+  justify-content: center;
 
 }
 .col-4 img {
-  width: 60%;
+  width: 50%;
+  
 }
 .col-4 {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -299,11 +301,21 @@ li a:hover .nav-list2 {
 }
 .scene-1 {
   position: relative;
-    height: 300vh;
+    height: 150vh;
     background: linear-gradient(#a6d8ff,#9370db);
 }
 h2 {
   text-align: center;
 }
-  
+.scene-3 {
+  position: relative;
+    height: 250vh;
+    background: linear-gradient(#a6d8ff,#9370db);
+}
+p .aboutus {
+  justify-content: center;
+}
+p .events {
+  color: #000;
+}
   

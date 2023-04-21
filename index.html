@@ -1,90 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
-    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=""/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge" />
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
     <title>Fairy Cafe</title>
   </head>
   <body>
-    <section class="scene">
+    <body style="overflow: unset touch-action auto">
+    <section class="scene-1">
       <div class="backdrop"></div>
-    <header>
-    <!--<div class="navbar">-->
-      <img class="logo" src="./images/Fairy Cafe-1.jpg" alt="logo">
-      <nav>
-        <ul class="nav_list">
-        <li><a href="#about-us">About us</a></li>
-        <li><a href="#products">Menu</a></li>
-        <li><a href="#services">Events</a></li>
-        </ul> 
-      </nav>
-      <nav>
-      <a class="cta" href="user-registration.html"><button>Register</button></a>
+      <header>
+        <!--<div class="navbar">-->
+        <img class="logo" src="./images/Fairy Cafe-1.jpg" alt="logo" />
+        <nav>
+          <ul class="nav_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Menu</a></li>
+            <li><a href="#services">Events</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <a class="cta" href="user-registration.html"
+            ><button>Register</button></a
+          >
 
-      <a class="cta" href="#"><button>Sign In</button></a>
-    </nav>
-    <!--</div>-->
-  </header>
-    <!--
-    <nav class="navbar"> 
-    <ul class="nav-list">
-      
-        <li><a href="#about-us">About us</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#services">Services</a></li>
-    </ul> -->
-    <!--<a href="#" class="logo">Fairy<span>.</span></a>-->
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-  
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="./images/fairy-tale-bg.webp" class="d-block w-100 c-img" alt="Slide 1">
-          <div class="carousel-caption top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">Discover the Magical World</p>
-            <h1 class="display-1 fw-bolder text-capitalize">The Fairy Cafe</h1>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Find a location near you</button>
-          </div>
+          <a class="cta" href="user-login.html"><button>Sign In</button></a>
+        </nav>
+        <!--</div>-->
+      </header>
+
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-        <div class="carousel-item c-item">
-          <img src="./images/setting.jpeg" class="d-block w-100 c-img" alt="Slide 2">
-          <div class="carousel-caption top-0 mt-4">
-            <p class="text-uppercase fs-3 mt-5">Walk ins and reservations welcome</p>
-            <p class="display-1 fw-bolder text-capitalize">Reservations available</p>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#booking-modal">Make a reservation</button>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="./images/fairy-tale-bg.webp"
+              class="d-block w-100 c-img"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="mt-5 fs-3 text-uppercase">Discover the Magical World</p>
+              <h1 class="display-1 fw-bolder text-capitalize">
+                The Fairy Cafe
+              </h1>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+                Find a location near you
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item c-item">
-          <img src="./images/pastry.jpeg" class="d-block w-100 c-img" alt="Slide 3">
-          <div class="carousel-caption top-0 mt-4">
-            <p class="text-uppercase fs-3 mt-5">Come try our sweet macarons</p>
-            <p class="display-1 fw-bolder text-capitalize">Variety of pastries to choose from</p>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#booking-modal">Order Online</button>
+          <div class="carousel-item c-item">
+            <img
+              src="./images/setting.jpeg"
+              class="d-block w-100 c-img"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">
+                Walk ins and reservations welcome
+              </p>
+              <p class="display-1 fw-bolder text-capitalize">
+                Reservations available
+              </p>
+              <button
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Make a reservation
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="./images/pastry.jpeg"
+              class="d-block w-100 c-img"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">
+                Come try our sweet macarons
+              </p>
+              <p class="display-1 fw-bolder text-capitalize">
+                Variety of pastries to choose from
+              </p>
+              <button
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Order Online
+              </button>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-  
-  </section>
+      <div class="small-container">
+        <h2>Top Selling Items</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="./images/cafe-latte.jpeg" alt="Cafe Late">
+            <h4>Cafe Latte</h4>
+            <p>Price: $3.99</p>
+          </div>
+          <div class="col-4">
+            <img src="./images/matcha.jpeg" alt="Cafe Late">
+            <h4>Matcha Soft Served Ice-Cream</h4>
+            <p>Price: $4.99</p>
+          </div>
+          <div class="col-4">
+            <img src="./images/macarons.jpeg" alt="Cafe Late">
+            <h4>Macarons</h4>
+            <p>Price: $1.99 each</p>
+          </div>
+          <div class="col-4">
+            <img src="./images/frappe1.jpeg" alt="Cafe Late">
+            <h4>Frappe</h4>
+            <p>Price: $4.99</p>
+          </div>
+          <div class="col-4">
+            <img src="./images/chocolate-croissants.jpeg" alt="Cafe Late">
+            <h4>Chocolate Croissant</h4>
+            <p>Price: $3.50</p>
+          </div>
+          <div class="col-4">
+            <img src="./images/bagel.jpeg" alt="Cafe Late">
+            <h4>Bagel</h4>
+            <p>Price: $2.99</p>
+          </div>
+        </div>
 
+
+
+
+      </div>
+    </section>
+  </body>
   </body>
 </html>

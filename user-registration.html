@@ -13,6 +13,25 @@
 <body>
     <section class="scene">
         <div class="backdrop"></div>
+        <header>
+            <!--<div class="navbar">-->
+            <img class="logo" src="./images/Fairy Cafe-1.jpg" alt="logo" />
+            <nav>
+              <ul class="nav_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Menu</a></li>
+                <li><a href="#services">Events</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <a class="cta" href="user-registration.html"
+                ><button>Register</button></a
+              >
+    
+              <a class="cta" href="user-login.html"><button>Sign In</button></a>
+            </nav>
+            <!--</div>-->
+          </header>
     <form action="action_page.php">
         <div class="container">
           <h1 class="registration">Register</h1>
@@ -31,9 +50,10 @@
               <input type="radio" id="choice3" name="contact" value="Friend" />
               <label for="contactChoice3">Through a Friend</label>
             </div>
+        
         </fieldset>
          </form>
-      
+         <div class="container">
           <label for="email"><b>Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
@@ -54,6 +74,7 @@
         <div class="container signin">
           <p>Already have an account? <a href="user-login.html">Sign in</a>.</p>
         </div>
+    </div>
       </form>
       
 </section>

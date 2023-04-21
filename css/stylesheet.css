@@ -312,10 +312,13 @@ h2 {
     height: 250vh;
     background: linear-gradient(#a6d8ff,#9370db);
 }
-p .aboutus {
+.aboutus {
   justify-content: center;
+} 
+.registerbtn {
+  background-color: #67bdff;
 }
-p .events {
-  color: #000;
+.signinbtn {
+  background-color: #67bdff;
 }
-  
+
